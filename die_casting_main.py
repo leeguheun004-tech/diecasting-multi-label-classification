@@ -194,7 +194,6 @@ def test(model):
     
     return test_loss, f1, precision, recall
 
-
 def main():
     os.makedirs(train_cfg.code_dir, exist_ok=True)
     shutil.copy(osp.join(os.getcwd(), "configuration.py"),
